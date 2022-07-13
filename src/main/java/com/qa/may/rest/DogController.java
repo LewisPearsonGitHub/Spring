@@ -39,7 +39,7 @@ public class DogController {
 //	@GetMapping("/demoDog")
 //	public Dog getDemoDog() {
 //		return new Dog("Rosie", "Cavalier King Charles Spaniel", 6);
-//	}
+//	  }
 	
 	@PostMapping("/createDog")
 	public ResponseEntity<Dog> create(@RequestBody Dog dog1) {
